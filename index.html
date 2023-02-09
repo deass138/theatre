@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live.tv</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- шапка -->
+    <header>
+        <img class="logo" src="../assets/img/Live.TV.svg">
+        <p>Фильмы</p>
+        <p>Сериалы</p>
+        <p>Мультфильмы</p>
+        <div class="nav">
+            <img class="svg" src="../assets/img/search.svg">
+            <p>Поиск</p>
+            <img class="svg" src="../assets/img/bag.svg">
+            <p>Мои покупки</p>
+            <img class="svg" src="../assets/img/account.svg">
+            <p>Мой аккаунт</p>
+        </div>
+    </header>
+    <!-- банер 1 -->
+    <div class="baner">
+        <div class="title">
+            <h1>НЕЗНАКОМЕЦ</h1>
+            <div class="title1">
+                <P>8.9</P>
+                <P>2020, США</P>
+                <P>Триллер,драма</P>
+                <P>113 мин <img class="age" src="../assets/img/age.svg"></P>
+            </div>
+            <p class="about_film">Софи была счастлива в браке со своим мужем Генри. Пока однажды ей не пришло анонимное
+                письмо,
+                предупреждение, что ей нужно бежать от мужа. Пытаясь разгадать эту загадку, Софи впадает в ужас, ведь
+                Генри оказывается совсем не тем человеком, которого она знает…</p>
+        </div>
+        <div class="btn">
+            <button class="whatch"><img class="svg1" src="../assets/img/play.svg"> Смотреть бесплатно</button1>
+                <button class="treller"><img class="svg1" src="../assets/img/video.svg">Трейллер</button1>
+                    <button class="bookmark"><img src="../assets/img/bookmark.svg"></button1>
+        </div>
+    </div>
+    <!-- другие фильмы -->
+    <h1 class="titles">Рекомендуем посмотреть</h1>
+    <div class="other">
+
+        <div class="film">
+            <img src="../assets/img/2.jpg">
+            <h3>Под водой</h3>
+            <p>Приключения, семейный</p>
+        </div>
+        <div class="film">
+            <img src="../assets/img/3.jpg">
+            <h3>Мгла</h3>
+            <p>Приключения, семейный</p>
+        </div>
+        <div class="film">
+            <img src="../assets/img/4.jpg">
+            <h3>Охота</h3>
+            <p>Приключения, семейный</p>
+        </div>
+        <div class="film">
+            <img src="../assets/img/5.jpg">
+            <h3>Синхронизация</h3>
+            <p>Приключения, семейный</p>
+        </div>
+    </div>
+    <!-- банер 2 -->
+    <div class="baner2">
+        <div class="title2">
+            <h1 class="title2">Космическая подборка</h1>
+            <p class="about_film">100 лучших фильмов о космосе, других планетах и инопланетян. Рейтинг составлен на
+                основании оценок и рецензий пользователей Live.TV.</p>
+        </div>
+        <div class="btn">
+            <button class="whatch">Смотреть подборку</button1>
+
+        </div>
+    </div>
+    <!-- открытие недели -->
+    <div class="block3">
+        <div class="title4">
+            <p>Открытие недели</p>
+        </div>
+        <div class="block3_1">
+            <h1>БЕССОНИЦА</h1>
+            <div class="title1_1">
+                <P>7.8</P>
+                <P>2020, США</P>
+                <P>Триллер,драма</P>
+                <P>98 мин <img class="age" src="../assets/img/age.svg"></P>
+            </div>
+            <p class="about_film">Драма, в которой стерты все границы реальности и вымысла. Потеряв сон, герой Метью
+                Кросса потерял себя и уже не понимает, что происходит по-настоящему, а что является плодом его
+                воображения.</p>
+            <h1 class="price">199 Р.</h1>
+            <div class="btn1">
+                <button class="whatch"><img class="svg1" src="../assets/img/play.svg">Купить и смотреть</button1>
+                    <button class="treller"><img class="svg1" src="../assets/img/video.svg">Трейллер</button1>
+                        <button class="bookmark"><img class="svg1" src="../assets/img/bookmark.svg"></button1>
+            </div>
+            <div class="block3_2">
+                <img src="../assets/img/7.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <h1>ОФОРМИТЕ ПОДПИСКУ</h1>
+        <P>Получите полный доступ к каталогу Live. Безупречное качество картинки и звука, одновременный просмотр на 5
+            устройствах, отсутствие рекламы, загрузка на устройства для офлайн-доступа. </P>
+        <div class="main">
+            <div class="block1_4">
+                <form>
+                    <div class="form_name">
+                        <label>Имя</label>
+                        <input type="text" name="name" pattern="[A-Z,a-z,А-Я,а-яЁё]+" required />
+                    </div>
+                    <div class="form_phone">
+                        <label>Телефон</label>
+                        <input type="tel" name="tel" pattern="7[0-9]{3}[0-9]{2}[0-9]{2}" required />
+
+                        <span class="form_error">Это поле должэно содержать телефон в формате 7 900 000 00 00</span>
+                    </div>
+                    <div class="form_email">
+                        <label>E-mail</label>
+                        <input type="email" name="email" required />
+                        <span class="form_error">Это поле должэно содержать почту в формате user@mail.ru</span>
+                    </div><br>
+                    <div class="btn1">
+                        <button type="submit" class="whatch">Оформить подписку</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <p>Live.tv 2021 Все права защищены</p>
+        <a>Политика конфедициальности</a>
+        <img src="../assets/img/facebook.svg">
+        <img src="../assets/img/facebook.svg">
+        <img src="../assets/img/facebook.svg">
+    </footer>
+</body>
+
+</html>
